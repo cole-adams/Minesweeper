@@ -83,7 +83,7 @@ export default class Game extends Vue {
     }
 
     get boardWidth() {
-        return Math.min(window.innerWidth-20, 520);
+        return Math.min(window.innerWidth-10, 800);
     }
 
     get status() {
